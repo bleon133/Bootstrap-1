@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="d-flex align-items-center">
+    <form class="container">
+        <div class="row">
+            <div class="col-12 mb-3" >
+                <label for="user" class="form-label">User Name</label>
+                <input type="name" class="form-control" id="user">
+            </div>
+            <div class="col-12 mb-3">
+                <label for="email" class="form-label">E-Mail</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="col-12 mb-3">
+                <label for="direction" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="direction" placeholder="Av. Calle #">
+            </div>
+            <div class="mb-3 col-xxl-12 col-sm-6">
+                <label for="city" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="city">
+            </div>
+            <div class="mb-3 col-xxl-12 col-sm-3">
+                <label for="departamento" class="form-label">Departamento</label>
+                <select class="form-select" aria-label="Default select example" id="departamento">
+                    <option selected>Elija...</option>
+                    <option value="1">Santander</option>
+                    <option value="2">Cundinamarca</option>
+                    <option value="3">Norte del santander</option>
+                </select>
+            </div>
+            <div class="mb-3 col-xxl-12 col-sm-3">
+                <label for="code" class="form-label">Código postal</label>
+                <input type="number" class="form-control" id="code">
+            </div>
+            <div class="col-12 mb-3">
+                <label for="comments" class="form-label">Deje aquí sus comentarios</label>
+                <textarea class="form-control" id="comments" rows="5"></textarea>
+            </div>
+            <div class="form-check mb-3 col-12 d-flex justify-content-center">
+                <input class="form-check-input" type="checkbox" value="" id="terminos">
+                <label class="form-check-label" for="terminos">
+                    Acepta los términos y condiciones
+                </label>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <button type="button" class="btn btn-primary">Confirmar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

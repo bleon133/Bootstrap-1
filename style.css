@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(./Fondo);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+label{
+    font-weight: 500;
+}
